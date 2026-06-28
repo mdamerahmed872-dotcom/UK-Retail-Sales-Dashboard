@@ -1,78 +1,107 @@
-📊 UK Retail Sales Performance Dashboard
+## 📊 UK Retail Sales Performance Dashboard
+## 📌 Project Overview
 
-## Project Overview
+This project analyses UK retail transaction data using SQL Server and Power BI to transform raw sales data into an interactive business intelligence dashboard.
 
-This project analyses UK retail sales data using SQL, Power BI and DAX.
+The objective is to help business stakeholders monitor sales performance, identify customer purchasing patterns, analyse product performance, and support data-driven decision-making.
 
-The objective is to transform raw transactional data into an interactive business dashboard that helps management monitor sales performance, customer behaviour and product trends.
+## 🎯 Business Problem
 
-## Tools Used
+Retail businesses generate thousands of transactions every day. Without proper analysis, it is difficult to identify:
 
-- SQL Server (SSMS)
-- Power BI
-- DAX
-- Microsoft Excel
+Sales trends over time
+Best-selling products
+High-value customers
+Revenue by country
+Key performance indicators (KPIs)
 
-## Dataset
+This dashboard provides an interactive solution for monitoring these business metrics.
 
-Online Retail Dataset (UK)
+## 🛠️ Tools & Technologies
+SQL Server (SSMS)
+Power BI
+DAX (Data Analysis Expressions)
+Microsoft Excel
 
-Source:
-https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
+## 📂 Dataset
 
-## Project Workflow
+Dataset: Online Retail Dataset
 
-1. Imported raw retail dataset into SQL Server.
-2. Cleaned missing values and removed invalid records.
-3. Performed SQL analysis.
-4. Created DAX measures.
-5. Built an interactive Power BI dashboard.
+Source: Kaggle – Online Retail Dataset
 
-## Dashboard KPIs
+The dataset contains over 540,000 retail transactions from a UK-based online retailer.
 
-- Total Revenue
-- Total Orders
-- Total Customers
-- Total Products
+## 🔄 Project Workflow
+1. Data Import
+Imported the retail dataset into SQL Server.
 
-## Dashboard Features
+2. Data Cleaning
+Removed missing values.
+Removed invalid records.
+Created a Revenue column.
+Verified data quality using SQL queries.
+3. Data Analysis
+Calculated key business metrics using SQL and DAX.
+Created measures for revenue, customers, products and orders.
+4. Dashboard Development
+Built an interactive Power BI dashboard with filters and visualisations.
 
-- Monthly Revenue Trend
-- Top 10 Products
-- Top 10 Customers
-- Revenue by Country
-- Country Slicer
-- Dynamic Dashboard
+## 📈 Dashboard KPIs
+💰 Total Revenue
+📦 Total Orders
+👥 Total Customers
+🛍️ Total Products
 
-- ## SQL Skills Demonstrated
+## 📊 Dashboard Features
+Monthly Revenue Trend
+Top 10 Products by Revenue
+Top 10 Customers by Revenue
+Revenue by Country
+Country Filter
+Month Filter
+Interactive Dashboard
 
-- Aggregate Functions
-- GROUP BY
-- ORDER BY
-- COUNT
-- SUM
-- DISTINCT
-- Data Cleaning
+## 💡 Key Business Insights
+Revenue shows clear monthly sales trends.
+A small number of products contribute a significant share of total revenue.
+The United Kingdom generates the highest revenue.
+A limited number of customers account for a large proportion of sales.
+Interactive filters allow users to analyse performance by country and month.
 
-- ## Power BI Skills Demonstrated
+## 🚀 Skills Demonstrated
+SQL
+Data Cleaning
+Aggregate Functions
+GROUP BY
+ORDER BY
+COUNT
+SUM
+DISTINCT
 
-- Data Modelling
-- DAX Measures
-- Cards
-- Line Charts
-- Clustered Bar Charts
-- Interactive Filters
-- Dashboard Design
+## Power BI
+Data Modelling
+DAX Measures
+KPI Cards
+Line Charts
+Clustered Bar Charts
+Interactive Slicers
+Dashboard Design
 
-## Dashboard Preview
+📷 Dashboard Preview
 ![UK Retail Sales Dashboard](Screenshot%202026-06-28%20180706.png)
 
-## Author
+## 📁 Repository Contents
+UK_Retail_Sales_Performance_Dashboard.pbix
+SQLQuery.sql
+Dashboard Screenshot
+README.md
 
-**Mohammed Amer Ahmed**
+## 👨‍💻 Author
+
+Mohammed Amer Ahmed
 
 MSc Data Science
 University of Salford
 
-LinkedIn:
-(Mdamer ahmed)
+📍 Manchester, United Kingdom
+Linkedin:www.linkedin.com/in/mdamer-ahmed-971851192
